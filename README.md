@@ -4,7 +4,7 @@ With the help of reverse engineering the APK file, I found the following bugs in
 
 2. In the Activity_Game class, in the finishGame() function, there was Toast.duration in the code = 1, which is incorrect, so I changed it to Toast.LENGTH_LONG
 
-3. In the AndroidManifest file it is required to add 2 lines of code. The first to allow access to the Internet and the second to declare Activity_Game.
+3. In the AndroidManifest file it is required to add 2 lines of code for allow access to the Internet. in addition,  need to add code for declare Activity_Game.
 
 Game Instructions:
 1. You entered an ID number that will be the input of the game.
